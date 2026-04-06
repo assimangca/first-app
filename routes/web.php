@@ -1,3 +1,4 @@
+// This is a test change on the develop branch
 <?php
 
 use App\Http\Controllers\ProfileController;
@@ -22,4 +23,4 @@ Route::middleware('auth')->group(function () {
     Route::resource('posts', PostController::class);
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
